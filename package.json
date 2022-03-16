@@ -9,8 +9,5 @@
     "packages/*"
   ],
   "license": "ISC",
-  "dependencies": {
-    "vite": "^2.8.6",
-    "vue": "^3.2.31"
-  }
+  "dependencies": {}
 }
