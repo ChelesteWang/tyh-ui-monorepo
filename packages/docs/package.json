@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@tyh-ui-monorepo/docs",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tyh-ui-monorepo/tyh-ui2": "3.4.3",
     "vue": "^3.2.25"
   },
   "devDependencies": {
