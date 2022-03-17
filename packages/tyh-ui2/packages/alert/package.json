@@ -1,5 +1,5 @@
 {
-  "name": "@tyh-ui-monorepo/alert",
+  "name": "@tyh-ui/alert",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
