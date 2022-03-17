@@ -9,7 +9,7 @@
     "node": ">= 16"
   },
   "scripts": {
-    "dev": "vite packages/docs"
+    "dev": "pnpm run dev --filter @tyh-ui-monorepo/docs"
   },
   "workspaces": [
     "packages/*"
