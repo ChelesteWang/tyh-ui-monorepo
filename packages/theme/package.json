@@ -1,0 +1,10 @@
+{
+  "name": "@tyh-ui-monorepo/theme",
+  "version": "1.0.0",
+  "description": "theme",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

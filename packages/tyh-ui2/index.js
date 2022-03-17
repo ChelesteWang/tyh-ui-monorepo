@@ -40,7 +40,7 @@ import TyhDrawer from '../packages/drawer'
 import TyhDialog from '../packages/dialog'
 import { Message } from '../packages/message'
 import { Notification } from '../packages/notification'
-import { version } from '../package.json'
+import { version } from './package.json'
 
 const cpm = [
   TyhButton,
