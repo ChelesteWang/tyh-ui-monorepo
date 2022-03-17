@@ -5,9 +5,19 @@
   "keywords": [],
   "author": "",
   "private": true,
+  "scripts": {
+    "dev": "vite packages/docs"
+  },
   "workspaces": [
     "packages/*"
   ],
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "vite": "^2.8.6",
+    "vue": "^3.2.31",
+    "@vitejs/plugin-vue": "^2.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.7.0"
+  }
 }
