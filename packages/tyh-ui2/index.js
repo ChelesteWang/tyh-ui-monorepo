@@ -1,48 +1,48 @@
-import TyhButton from '../packages/button'
-import TyhList from '../packages/list'
-import TyhCard from '../packages/card'
-import TyhTag from '../packages/tag'
-import TyhLink from '../packages/link'
-import TyhMenu from '../packages/menu'
-import TyhMenuItem from '../packages/menu-item'
-import TyhDivision from '../packages/division'
-import TyhIcon from '../packages/icon'
-import TyhCrumbs from '../packages/crumbs'
-import TyhCrumbsItem from '../packages/crumbs-item'
-import TyhInput from '../packages/input'
-import TyhTurnPage from '../packages/turn-page'
-import TyhTurnPageItem from '../packages/turn-page-item'
-import TyhBackTop from '../packages/back-top'
-import TyhSkeleton from '../packages/skeleton'
-import TyhAlert from '../packages/alert'
-import TyhRate from '../packages/rate'
-import TyhImage from '../packages/image'
-import TyhAvatar from '../packages/avatar'
-import TyhAside from '../packages/container/TyhAside'
-import TyhContainer from '../packages/container/TyhContainer'
-import TyhFooter from '../packages/container/TyhFooter'
-import TyhHeader from '../packages/container/TyhHeader'
-import TyhMain from '../packages/container/TyhMain'
-import TyhText from '../packages/text'
-import TyhTable from '../packages/table'
-import TyhButtonGroup from '../packages/button-group'
-import TyhCalendar from '../packages/calendar'
-import TyhSwitch from '../packages/switch'
-import TyhRadio from '../packages/radio'
-import TyhTree from '../packages/tree'
-import TyhPageHeader from '../packages/page-header'
-import TyhInfo from '../packages/info'
-import TyhTextarea from '../packages/textarea'
-import TyhSelect from '../packages/select'
-import TyhOption from '../packages/option'
-import TyhTagging from '../packages/tagging'
-import TyhDrawer from '../packages/drawer'
-import TyhDialog from '../packages/dialog'
-import { Message } from '../packages/message'
-import { Notification } from '../packages/notification'
+import TyhButton from '../components/button'
+import TyhList from '../components/list'
+import TyhCard from '../components/card'
+import TyhTag from '../components/tag'
+import TyhLink from '../components/link'
+import TyhMenu from '../components/menu'
+import TyhMenuItem from '../components/menu-item'
+import TyhDivision from '../components/division'
+import TyhIcon from '../components/icon'
+import TyhCrumbs from '../components/crumbs'
+import TyhCrumbsItem from '../components/crumbs-item'
+import TyhInput from '../components/input'
+import TyhTurnPage from '../components/turn-page'
+import TyhTurnPageItem from '../components/turn-page-item'
+import TyhBackTop from '../components/back-top'
+import TyhSkeleton from '../components/skeleton'
+import TyhAlert from '../components/alert'
+import TyhRate from '../components/rate'
+import TyhImage from '../components/image'
+import TyhAvatar from '../components/avatar'
+import TyhAside from '../components/container/TyhAside'
+import TyhContainer from '../components/container/TyhContainer'
+import TyhFooter from '../components/container/TyhFooter'
+import TyhHeader from '../components/container/TyhHeader'
+import TyhMain from '../components/container/TyhMain'
+import TyhText from '../components/text'
+import TyhTable from '../components/table'
+import TyhButtonGroup from '../components/button-group'
+import TyhCalendar from '../components/calendar'
+import TyhSwitch from '../components/switch'
+import TyhRadio from '../components/radio'
+import TyhTree from '../components/tree'
+import TyhPageHeader from '../components/page-header'
+import TyhInfo from '../components/info'
+import TyhTextarea from '../components/textarea'
+import TyhSelect from '../components/select'
+import TyhOption from '../components/option'
+import TyhTagging from '../components/tagging'
+import TyhDrawer from '../components/drawer'
+import TyhDialog from '../components/dialog'
+import { Message } from '../components/message'
+import { Notification } from '../components/notification'
 import { version } from './package.json'
 
-const cpm = [
+const components = [
   TyhButton,
   TyhList,
   TyhCard,
@@ -85,13 +85,13 @@ const cpm = [
   TyhDialog
 ]
 
-const install = _ => {
-  cpm.forEach(i => {
-    _.use(i)
+const install = app => {
+  components.forEach(component => {
+    app.use(component)
   })
 }
 
-const T = {
+const tyhUi2 = {
   version,
   install
 }
@@ -142,4 +142,4 @@ export {
   TyhDialog
 }
 
-export default T
+export default tyhUi2
