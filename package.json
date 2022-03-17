@@ -5,6 +5,9 @@
   "keywords": [],
   "author": "",
   "private": true,
+  "engines": {
+    "node": ">= 16"
+  },
   "scripts": {
     "dev": "vite packages/docs"
   },
