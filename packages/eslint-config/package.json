@@ -1,9 +1,0 @@
-{
-  "name": "@tyh-ui-monorepo/eslint-config",
-  "version": "1.0.0",
-  "description": "ESLint Config",
-  "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC"
-}
